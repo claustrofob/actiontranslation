@@ -18,6 +18,8 @@ Action Translation is een app voor iPhone en iPad die tekst vertaalt met de AI-a
 
 ## Wat naar je AI-aanbieder wordt verzonden
 
+Door in Instellingen een API-sleutel toe te voegen, geef je de app toestemming om de hieronder beschreven gegevens naar die aanbieder te sturen. Verwijder de sleutel om je toestemming in te trekken.
+
 Er wordt niets verzonden totdat je een vertaling start. Daarna verzendt de app het volgende rechtstreeks naar de aanbieder die in Instellingen is geselecteerd (Google, Anthropic of OpenAI):
 
 - de tekst die je wilt vertalen;

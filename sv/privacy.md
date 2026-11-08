@@ -18,6 +18,8 @@ Action Translation är en app för iPhone och iPad som översätter text med den
 
 ## Vad som skickas till din AI-leverantör
 
+Genom att lägga till en API-nyckel i Inställningar tillåter du appen att skicka de data som beskrivs nedan till den leverantören. Ta bort nyckeln för att återkalla ditt tillstånd.
+
 Inget skickas förrän du startar en översättning. När du gör det skickar appen följande direkt till den leverantör som har valts i Inställningar (Google, Anthropic eller OpenAI):
 
 - texten du vill översätta;

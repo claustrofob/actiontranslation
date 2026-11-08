@@ -18,6 +18,8 @@ Action Translation ist eine App für iPhone und iPad, die Text mit einem KI-Anbi
 
 ## Was an deinen KI-Anbieter gesendet wird
 
+Wenn du in den Einstellungen einen API-Schlüssel hinzufügst, erlaubst du der App, die unten beschriebenen Daten an diesen Anbieter zu senden. Um deine Erlaubnis zu widerrufen, entferne den Schlüssel.
+
 Es wird nichts gesendet, bevor du eine Übersetzung startest. Danach sendet die App direkt an den in den Einstellungen ausgewählten Anbieter (Google, Anthropic oder OpenAI):
 
 - den zu übersetzenden Text;

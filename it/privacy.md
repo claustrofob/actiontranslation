@@ -18,6 +18,8 @@ Action Translation è un’app per iPhone e iPad che traduce il testo con il for
 
 ## Cosa viene inviato al fornitore di IA
 
+Aggiungendo una chiave API nelle Impostazioni, consenti all’app di inviare a quel fornitore i dati descritti di seguito. Per revocare l’autorizzazione, rimuovi la chiave.
+
 Non viene inviato nulla finché non avvii una traduzione. A quel punto l’app invia direttamente al fornitore selezionato nelle Impostazioni (Google, Anthropic o OpenAI):
 
 - il testo da tradurre;

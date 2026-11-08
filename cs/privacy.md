@@ -18,6 +18,8 @@ Action Translation je aplikace pro iPhone a iPad, která překládá text pomoc�
 
 ## Co se odesílá poskytovateli AI
 
+Přidáním klíče API v Nastavení povolujete aplikaci odesílat tomuto poskytovateli údaje popsané níže. Svolení odvoláte odstraněním klíče.
+
 Dokud nespustíte překlad, neodesílá se nic. Po spuštění aplikace odešle přímo poskytovateli vybranému v Nastavení (Google, Anthropic nebo OpenAI):
 
 - text, který chcete přeložit;

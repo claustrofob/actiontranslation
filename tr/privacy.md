@@ -18,6 +18,8 @@ Action Translation, metinleri seçtiğiniz yapay zekâ sağlayıcısıyla çevir
 
 ## Yapay zekâ sağlayıcınıza neler gönderilir
 
+Ayarlar'da bir API anahtarı ekleyerek uygulamanın aşağıda açıklanan verileri o sağlayıcıya göndermesine izin vermiş olursunuz. İzninizi geri çekmek için anahtarı kaldırın.
+
 Çeviri başlatana kadar hiçbir şey gönderilmez. Çeviri başlattığınızda uygulama, Ayarlar'da seçilen sağlayıcıya (Google, Anthropic veya OpenAI) doğrudan şunları gönderir:
 
 - çevirmek istediğiniz metin;
