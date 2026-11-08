@@ -1,5 +1,5 @@
 ---
-layout: privacy
+layout: page
 lang: nl
 title: Privacybeleid
 ---

@@ -1,5 +1,5 @@
 ---
-layout: privacy
+layout: page
 lang: hi
 title: गोपनीयता नीति
 ---

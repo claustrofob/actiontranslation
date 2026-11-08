@@ -1,5 +1,5 @@
 ---
-layout: privacy
+layout: page
 lang: cs
 title: Zásady ochrany osobních údajů
 ---

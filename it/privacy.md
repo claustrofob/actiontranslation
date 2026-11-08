@@ -1,5 +1,5 @@
 ---
-layout: privacy
+layout: page
 lang: it
 title: Informativa sulla privacy
 ---

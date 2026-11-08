@@ -1,5 +1,5 @@
 ---
-layout: privacy
+layout: page
 lang: th
 title: นโยบายความเป็นส่วนตัว
 ---

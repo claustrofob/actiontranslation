@@ -1,5 +1,5 @@
 ---
-layout: privacy
+layout: page
 lang: en
 title: Privacy Policy
 ---

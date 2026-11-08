@@ -1,5 +1,5 @@
 ---
-layout: privacy
+layout: page
 lang: el
 title: Πολιτική απορρήτου
 ---

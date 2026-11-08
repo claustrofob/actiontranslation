@@ -1,5 +1,5 @@
 ---
-layout: privacy
+layout: page
 lang: fr
 title: Politique de confidentialité
 ---

@@ -1,3 +1,4 @@
+{%- assign page_file = page.name | replace: ".md", ".html" -%}
 {%- assign current = site.data.languages | where: "code", page.lang | first -%}
 <!doctype html>
 <html lang="{{ page.lang }}" dir="{{ current.dir }}">
@@ -9,7 +10,7 @@
   <link rel="icon" href="{{ '/assets/img/icon.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
   {%- for l in site.data.languages %}
-  <link rel="alternate" hreflang="{{ l.code }}" href="{{ '/' | append: l.code | append: '/privacy.html' | absolute_url }}">
+  <link rel="alternate" hreflang="{{ l.code }}" href="{{ '/' | append: l.code | append: '/' | append: page_file | absolute_url }}">
   {%- endfor %}
 </head>
 <body class="legal">
@@ -22,7 +23,7 @@
       <summary>{{ current.name }}</summary>
       <ul>
         {%- for l in site.data.languages %}
-        <li><a href="{{ '/' | append: l.code | append: '/privacy.html' | relative_url }}" lang="{{ l.code }}" dir="{{ l.dir }}" {% if l.code == page.lang %}aria-current="page"{% endif %}>{{ l.name }}</a></li>
+        <li><a href="{{ '/' | append: l.code | append: '/' | append: page_file | relative_url }}" lang="{{ l.code }}" dir="{{ l.dir }}" {% if l.code == page.lang %}aria-current="page"{% endif %}>{{ l.name }}</a></li>
         {%- endfor %}
       </ul>
     </details>

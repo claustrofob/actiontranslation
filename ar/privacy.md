@@ -1,5 +1,5 @@
 ---
-layout: privacy
+layout: page
 lang: ar
 title: سياسة الخصوصية
 ---

@@ -1,5 +1,5 @@
 ---
-layout: privacy
+layout: page
 lang: tr
 title: Gizlilik Politikası
 ---

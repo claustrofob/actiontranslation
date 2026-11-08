@@ -1,5 +1,5 @@
 ---
-layout: privacy
+layout: page
 lang: ja
 title: プライバシーポリシー
 ---
