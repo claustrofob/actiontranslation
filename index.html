@@ -1,0 +1,105 @@
+---
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="theme-color" content="#050b2e">
+  <link rel="icon" href="{{ '/assets/img/icon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/img/icon.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+</head>
+<body class="landing">
+  <header class="top">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/img/icon.png' | relative_url }}" alt="" width="44" height="44">
+      <span>{{ site.title }}</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="request" id="request">
+        <p class="source" lang="vi">Dịch từ bất kỳ ứng dụng nào</p>
+        <div class="langs">
+          <span class="pill" id="source-language">Vietnamese</span>
+          <svg class="arrow" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <label class="pill pill-select">
+            <span class="visually-hidden">Show this page's headline in</span>
+            <select id="target-language">
+              {%- for l in site.data.languages %}
+              <option value="{{ l.code }}" data-dir="{{ l.dir }}" data-phrase="{{ l.phrase }}">{{ l.name }}</option>
+              {%- endfor %}
+            </select>
+          </label>
+        </div>
+        <div class="result">
+          <h1 id="headline" lang="en">Translate from any app</h1>
+        </div>
+      </div>
+
+      <div class="hero-after">
+        <p class="lede">Select text in Safari, Notes, or anywhere else, tap Share, then Translate. The translation opens in a sheet over the app you’re reading.</p>
+        {%- if site.app_store_url %}
+        <a class="store" href="{{ site.app_store_url }}">Download on the App Store</a>
+        {%- else %}
+        <p class="store store-soon">Coming soon to the App Store</p>
+        {%- endif %}
+        <p class="requires">For iPhone and iPad with iOS 27 or later</p>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="copy">
+        <h2>Stay in what you’re reading</h2>
+        <ol class="steps">
+          <li>Select a word, a phrase, or a whole page of text in any app.</li>
+          <li>Tap Share, then Translate.</li>
+          <li>Read the result in a sheet. Edit the text, correct the language, or copy the translation.</li>
+        </ol>
+      </div>
+      <figure class="phones">
+        <img src="{{ '/assets/img/2_translating.png' | relative_url }}" width="800" height="1739" loading="lazy" alt="Action Translation detecting the language of the Spanish word manzana, with recent translations listed below.">
+      </figure>
+    </section>
+
+    <section class="row row-flip">
+      <div class="copy">
+        <h2>A word gets a dictionary entry. A sentence gets a translation.</h2>
+        <p>The app works out what you sent. For a word or expression you get the normal form, synonyms, part of speech, numbered meanings, and usage examples. Longer text comes back as a plain, natural translation.</p>
+        <p>Your last 50 translations stay under the result, so you can open or repeat any of them.</p>
+      </div>
+      <figure class="phones phones-pair">
+        <img src="{{ '/assets/img/3_word.png' | relative_url }}" width="800" height="1739" loading="lazy" alt="A dictionary entry for manzana, with its part of speech, numbered meanings, and example sentences.">
+        <img src="{{ '/assets/img/4_text.png' | relative_url }}" width="800" height="1739" loading="lazy" alt="A Spanish sentence about walking on the beach, translated into English.">
+      </figure>
+    </section>
+
+    <section class="providers">
+      <h2>Use the AI provider you already trust</h2>
+      <p class="provider-names">Google Gemini, Anthropic Claude, or OpenAI</p>
+      <p>Add your own API key in Settings and pick a model. There is no Action Translation account and no server in between: each request goes from your device to your provider, and any usage charges come from your plan with that provider.</p>
+    </section>
+
+    <section class="privacy-note">
+      <h2>Your translations aren’t ours to see</h2>
+      <p>The app has no ads, analytics, or tracking. History and settings stay on your device, and API keys stay in the iOS Keychain. The text you translate goes only to the provider you chose.</p>
+      <p><a href="{{ '/en/privacy.html' | relative_url }}">Read the Privacy Policy</a></p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <h2>Privacy Policy in your language</h2>
+    <ul class="lang-list">
+      {%- for l in site.data.languages %}
+      <li><a href="{{ '/' | append: l.code | append: '/privacy.html' | relative_url }}" lang="{{ l.code }}" dir="{{ l.dir }}">{{ l.name }}</a></li>
+      {%- endfor %}
+    </ul>
+    <p>Need help? <a href="{{ site.contact_url }}">Open an issue on GitHub</a> or email <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.</p>
+  </footer>
+  <script src="{{ '/assets/hero.js' | relative_url }}" defer></script>
+</body>
+</html>

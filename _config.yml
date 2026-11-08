@@ -1,0 +1,12 @@
+title: Action Translation
+description: Translate text from any app on iPhone and iPad, using the AI provider you choose.
+url: https://claustrofob.github.io
+baseurl: /actiontranslation
+markdown: kramdown
+exclude:
+  - README.md
+
+# Paste the App Store link here once the app is live. While empty, the landing page says "Coming soon".
+app_store_url:
+contact_url: https://github.com/claustrofob/actiontranslation/issues
+contact_email: action.translation.app@gmail.com

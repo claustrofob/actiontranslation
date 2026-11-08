@@ -1,0 +1,34 @@
+{%- assign current = site.data.languages | where: "code", page.lang | first -%}
+<!doctype html>
+<html lang="{{ page.lang }}" dir="{{ current.dir }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} – {{ site.title }}</title>
+  <meta name="description" content="{{ page.title }} – {{ site.title }}">
+  <link rel="icon" href="{{ '/assets/img/icon.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+  {%- for l in site.data.languages %}
+  <link rel="alternate" hreflang="{{ l.code }}" href="{{ '/' | append: l.code | append: '/privacy.html' | absolute_url }}">
+  {%- endfor %}
+</head>
+<body class="legal">
+  <header class="legal-bar">
+    <a class="brand" href="{{ '/' | relative_url }}" dir="ltr">
+      <img src="{{ '/assets/img/icon.png' | relative_url }}" alt="" width="36" height="36">
+      <span>{{ site.title }}</span>
+    </a>
+    <details class="lang-menu">
+      <summary>{{ current.name }}</summary>
+      <ul>
+        {%- for l in site.data.languages %}
+        <li><a href="{{ '/' | append: l.code | append: '/privacy.html' | relative_url }}" lang="{{ l.code }}" dir="{{ l.dir }}" {% if l.code == page.lang %}aria-current="page"{% endif %}>{{ l.name }}</a></li>
+        {%- endfor %}
+      </ul>
+    </details>
+  </header>
+  <main class="legal-text">
+{{ content }}
+  </main>
+</body>
+</html>
