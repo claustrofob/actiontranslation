@@ -6,7 +6,7 @@ title: Zásady ochrany osobních údajů
 
 # Zásady ochrany osobních údajů
 
-Poslední aktualizace: 8. listopadu 2026
+Poslední aktualizace: 11. listopadu 2026
 
 Action Translation je aplikace pro iPhone a iPad, která překládá text pomocí poskytovatele AI podle vašeho výběru. Tyto zásady vysvětlují, co se při používání aplikace děje s vašimi údaji.
 
@@ -40,11 +40,13 @@ Poskytovatel tyto údaje zpracovává podle vlastních podmínek, zásad ochrany
 - **Nastavení:** poskytovatel, modely, cílový jazyk a nejpoužívanější jazyky.
 - **Klíče API:** ukládají se do klíčenky iOS.
 
-Aplikace a její rozšíření pro sdílení používají tyto údaje společně ve vašem zařízení. Aplikace je nesynchronizuje s žádným serverem, ale podle nastavení iOS mohou být součástí záloh zařízení.
+Aplikace a její rozšíření pro sdílení a pro příkaz Přeložit používají tyto údaje společně ve vašem zařízení. Aplikace je nesynchronizuje s žádným serverem, ale podle nastavení iOS mohou být součástí záloh zařízení.
 
 ## Obsah z jiných aplikací a přístup k zařízení
 
 Rozšíření pro sdílení obdrží pouze text nebo odkaz, který se s ním rozhodnete sdílet. Aplikace zapisuje do schránky pouze po klepnutí na Kopírovat. Nežádá o přístup ke kontaktům, fotkám, poloze, mikrofonu ani fotoaparátu.
+
+Pokud je Action Translation vaší výchozí aplikací pro překlad, příkaz Přeložit v jiných aplikacích jí předá pouze vybraný text a překlad začne okamžitě. Překlad se uloží do historie. Když klepnete na Nahradit, překlad se vrátí do dané aplikace místo vybraného textu.
 
 ## Smazání údajů
 

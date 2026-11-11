@@ -6,7 +6,7 @@ title: Gizlilik Politikası
 
 # Gizlilik Politikası
 
-Son güncelleme: 8 Kasım 2026
+Son güncelleme: 11 Kasım 2026
 
 Action Translation, metinleri seçtiğiniz yapay zekâ sağlayıcısıyla çeviren bir iPhone ve iPad uygulamasıdır. Bu politika, uygulamayı kullandığınızda verilerinize ne olduğunu açıklar.
 
@@ -40,11 +40,13 @@ Sağlayıcınız bu verileri kendi koşullarına, gizlilik politikasına ve sizi
 - **Ayarlar:** sağlayıcınız, modelleriniz, hedef diliniz ve en çok kullandığınız diller.
 - **API anahtarları:** iOS Anahtar Zinciri'nde saklanır.
 
-Uygulama ve Paylaş uzantısı bu verileri cihazınızda birlikte kullanır. Uygulama bu verileri hiçbir sunucuyla eşzamanlamaz, ancak iOS ayarlarınıza bağlı olarak cihaz yedeklerine dahil edilebilirler.
+Uygulama ile Paylaş ve Çevir komutu uzantıları bu verileri cihazınızda birlikte kullanır. Uygulama bu verileri hiçbir sunucuyla eşzamanlamaz, ancak iOS ayarlarınıza bağlı olarak cihaz yedeklerine dahil edilebilirler.
 
 ## Diğer uygulamalardan gelen içerik ve cihaz erişimi
 
 Paylaş uzantısı yalnızca paylaşmayı seçtiğiniz metni veya bağlantıyı alır. Uygulama panoya yalnızca Kopyala'ya dokunduğunuzda yazar. Kişilerinize, fotoğraflarınıza, konumunuza, mikrofonunuza veya kameranıza erişim istemez.
+
+Action Translation varsayılan çeviri uygulamanızsa diğer uygulamalardaki Çevir komutu ona yalnızca seçtiğiniz metni iletir ve çeviri hemen başlar. Çeviri geçmişinize kaydedilir. Değiştir'e dokunduğunuzda çeviri, seçili metnin yerine o uygulamaya geri gönderilir.
 
 ## Verilerinizi silme
 

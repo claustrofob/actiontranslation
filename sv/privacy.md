@@ -6,7 +6,7 @@ title: Integritetspolicy
 
 # Integritetspolicy
 
-Senast uppdaterad: 8 november 2026
+Senast uppdaterad: 11 november 2026
 
 Action Translation är en app för iPhone och iPad som översätter text med den AI-leverantör du väljer. Den här policyn förklarar vad som händer med dina data när du använder appen.
 
@@ -40,11 +40,13 @@ Leverantören behandlar dessa data enligt sina egna villkor och sin integritetsp
 - **Inställningar:** din leverantör, dina modeller, ditt målspråk och de språk du använder mest.
 - **API-nycklar:** lagras i iOS-nyckelringen.
 
-Appen och dess delningstillägg använder dessa data tillsammans på din enhet. Appen synkroniserar dem inte med någon server, men de kan ingå i säkerhetskopior av enheten beroende på dina iOS-inställningar.
+Appen och dess tillägg för delning och för kommandot Översätt använder dessa data tillsammans på din enhet. Appen synkroniserar dem inte med någon server, men de kan ingå i säkerhetskopior av enheten beroende på dina iOS-inställningar.
 
 ## Innehåll från andra appar och åtkomst till enheten
 
 Delningstillägget tar bara emot den text eller länk som du väljer att dela med det. Appen skriver bara till urklipp när du trycker på Kopiera. Den ber inte om åtkomst till dina kontakter, bilder, din plats, mikrofon eller kamera.
+
+Om Action Translation är din förvalda översättningsapp får den bara den markerade texten från kommandot Översätt i andra appar, och översättningen startar direkt. Översättningen sparas i din historik. Om du trycker på Ersätt skickas översättningen tillbaka till den appen i stället för den markerade texten.
 
 ## Radera dina data
 

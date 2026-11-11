@@ -6,7 +6,7 @@ title: Polityka prywatności
 
 # Polityka prywatności
 
-Ostatnia aktualizacja: 8 listopada 2026 r.
+Ostatnia aktualizacja: 11 listopada 2026 r.
 
 Action Translation to aplikacja na iPhone’a i iPada, która tłumaczy tekst za pomocą wybranego przez Ciebie dostawcy AI. Niniejsza polityka wyjaśnia, co dzieje się z Twoimi danymi podczas korzystania z aplikacji.
 
@@ -40,11 +40,13 @@ Dostawca przetwarza te dane zgodnie z własnym regulaminem, polityką prywatnoś
 - **Ustawienia:** dostawca, modele, język docelowy i najczęściej używane języki.
 - **Klucze API:** przechowywane w pęku kluczy iOS.
 
-Aplikacja i jej rozszerzenie udostępniania korzystają z tych danych wspólnie na Twoim urządzeniu. Aplikacja nie synchronizuje ich z żadnym serwerem, ale mogą one zostać uwzględnione w kopiach zapasowych urządzenia zgodnie z ustawieniami iOS.
+Aplikacja i jej rozszerzenia – do udostępniania i do polecenia Przetłumacz – korzystają z tych danych wspólnie na Twoim urządzeniu. Aplikacja nie synchronizuje ich z żadnym serwerem, ale mogą one zostać uwzględnione w kopiach zapasowych urządzenia zgodnie z ustawieniami iOS.
 
 ## Treści z innych aplikacji i dostęp do urządzenia
 
 Rozszerzenie udostępniania otrzymuje wyłącznie tekst lub link, który zdecydujesz się mu udostępnić. Aplikacja zapisuje dane w schowku tylko po stuknięciu Kopiuj. Nie prosi o dostęp do kontaktów, zdjęć, lokalizacji, mikrofonu ani aparatu.
+
+Jeśli Action Translation jest Twoją domyślną aplikacją do tłumaczenia, polecenie Przetłumacz w innych aplikacjach przekazuje jej tylko zaznaczony tekst, a tłumaczenie zaczyna się od razu. Tłumaczenie jest zapisywane w historii. Po stuknięciu Zastąp tłumaczenie wraca do tej aplikacji w miejsce zaznaczonego tekstu.
 
 ## Usuwanie danych
 

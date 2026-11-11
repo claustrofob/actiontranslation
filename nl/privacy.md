@@ -6,7 +6,7 @@ title: Privacybeleid
 
 # Privacybeleid
 
-Laatst bijgewerkt: 8 november 2026
+Laatst bijgewerkt: 11 november 2026
 
 Action Translation is een app voor iPhone en iPad die tekst vertaalt met de AI-aanbieder die jij kiest. Dit beleid legt uit wat er met je gegevens gebeurt wanneer je de app gebruikt.
 
@@ -40,11 +40,13 @@ Je aanbieder verwerkt deze gegevens volgens zijn eigen voorwaarden en privacybel
 - **Instellingen:** je aanbieder, modellen, doeltaal en de talen die je het meest gebruikt.
 - **API-sleutels:** bewaard in de iOS-sleutelhanger.
 
-De app en de bijbehorende deelextensie gebruiken deze gegevens samen op je apparaat. De app synchroniseert ze met geen enkele server, maar ze kunnen volgens je iOS-instellingen in apparaatback-ups worden opgenomen.
+De app en de bijbehorende extensies voor delen en voor het commando Vertaal gebruiken deze gegevens samen op je apparaat. De app synchroniseert ze met geen enkele server, maar ze kunnen volgens je iOS-instellingen in apparaatback-ups worden opgenomen.
 
 ## Inhoud uit andere apps en toegang tot je apparaat
 
 De deelextensie ontvangt alleen de tekst of link die je ermee deelt. De app schrijft alleen naar het klembord wanneer je op Kopieer tikt. De app vraagt geen toegang tot je contacten, foto's, locatie, microfoon of camera.
+
+Als Action Translation je standaardvertaalapp is, geeft het commando Vertaal in andere apps alleen de geselecteerde tekst door en begint de vertaling meteen. De vertaling wordt in je geschiedenis bewaard. Als je op Vervang tikt, gaat de vertaling terug naar die app in plaats van de geselecteerde tekst.
 
 ## Je gegevens verwijderen
 
