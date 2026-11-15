@@ -59,6 +59,8 @@ Pokud je Action Translation vaší výchozí aplikací pro překlad, příkaz P�
 
 Stahování z App Storu zajišťuje Apple podle vlastních zásad ochrany osobních údajů. Pokud v nastavení iOS povolíte sdílení analytických dat s vývojáři aplikací, může Apple vývojáři poskytovat zprávy o pádech a používání, které vás neidentifikují.
 
+Spropitné v Nastavení je dobrovolný nákup v aplikaci. Platbu zpracovává Apple podle vlastních podmínek; vývojář nedostává žádné platební údaje a spropitné nic neodemyká.
+
 Tento web je hostován na GitHub Pages a GitHub může zaznamenávat IP adresy návštěvníků. Samotný web nepoužívá cookies ani analytiku.
 
 Pokaždé, když aplikaci otevřete nebo ji použijete z nabídky sdílení či příkazem Přeložit, stáhne z tohoto webu seznam modelů AI, které používá. Požadavek neobsahuje text, který překládáte, ani žádné osobní údaje, ale jako při každé návštěvě webu může GitHub zaznamenat vaši IP adresu.

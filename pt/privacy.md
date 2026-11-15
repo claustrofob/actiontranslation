@@ -59,6 +59,8 @@ Se o Action Translation for seu app de tradução padrão, o comando Traduzir em
 
 A Apple processa os downloads da App Store de acordo com a própria política de privacidade. Se você optar por compartilhar análises com desenvolvedores de apps nos ajustes do iOS, a Apple poderá fornecer ao desenvolvedor relatórios de falhas e de uso que não identificam você.
 
+As gorjetas nos Ajustes são compras dentro do app opcionais. A Apple processa o pagamento de acordo com os próprios termos; o desenvolvedor não recebe dados de pagamento e a gorjeta não desbloqueia nada.
+
 Este site está hospedado no GitHub Pages, e o GitHub pode registrar os endereços IP dos visitantes. O próprio site não usa cookies nem análises.
 
 Sempre que você abre o app ou o usa pelo menu de compartilhamento ou pelo comando Traduzir, ele baixa deste site a lista de modelos de IA que usa. A solicitação não contém o texto que você traduz nem dados pessoais, mas, como em qualquer visita a um site, o GitHub pode registrar seu endereço IP.

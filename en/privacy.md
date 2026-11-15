@@ -59,6 +59,8 @@ If Action Translation is your default translation app, the Translate command in 
 
 Apple handles App Store downloads under its own privacy policy. If you choose to share analytics with app developers in your iOS settings, Apple may give the developer crash and usage reports that do not identify you.
 
+Tips in Settings are optional in-app purchases. Apple handles the payment under its own terms; the developer receives no payment details, and a tip unlocks nothing.
+
 This website is hosted on GitHub Pages, and GitHub may log visitors' IP addresses. The website itself uses no cookies or analytics.
 
 Each time you open the app, or use it from the Share menu or the Translate command, it downloads the list of AI models it uses from this website. The request contains no text you translate and no personal data, but as with any website visit, GitHub may log your IP address.

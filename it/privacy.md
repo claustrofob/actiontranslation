@@ -59,6 +59,8 @@ Se Action Translation è la tua app di traduzione predefinita, il comando Traduc
 
 Apple gestisce i download dall’App Store secondo la propria informativa sulla privacy. Se scegli di condividere le analisi con gli sviluppatori di app nelle impostazioni di iOS, Apple può fornire allo sviluppatore report su arresti anomali e utilizzo che non ti identificano.
 
+Le mance nelle Impostazioni sono acquisti in-app facoltativi. Apple gestisce il pagamento secondo i propri termini; lo sviluppatore non riceve dati di pagamento e la mancia non sblocca nulla.
+
 Questo sito web è ospitato su GitHub Pages e GitHub può registrare gli indirizzi IP dei visitatori. Il sito stesso non usa cookie né strumenti di analisi.
 
 Ogni volta che apri l’app o la usi dal menu di condivisione o dal comando Traduci, scarica da questo sito l’elenco dei modelli di IA che utilizza. La richiesta non contiene il testo che traduci né dati personali, ma, come per qualsiasi visita a un sito, GitHub può registrare il tuo indirizzo IP.

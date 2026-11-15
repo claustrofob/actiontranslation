@@ -59,6 +59,8 @@ Wenn Action Translation deine Standard-App für Übersetzungen ist, erhält sie 
 
 Apple wickelt Downloads aus dem App Store nach seiner eigenen Datenschutzrichtlinie ab. Wenn du in deinen iOS-Einstellungen Analysedaten mit App-Entwicklern teilst, kann Apple dem Entwickler Absturz- und Nutzungsberichte bereitstellen, die dich nicht identifizieren.
 
+Trinkgelder in den Einstellungen sind freiwillige In-App-Käufe. Apple wickelt die Zahlung nach eigenen Bedingungen ab; der Entwickler erhält keine Zahlungsdaten, und ein Trinkgeld schaltet nichts frei.
+
 Diese Website wird auf GitHub Pages gehostet, und GitHub kann die IP-Adressen von Besuchern protokollieren. Die Website selbst verwendet keine Cookies oder Analysen.
 
 Jedes Mal, wenn du die App öffnest oder sie über das Teilen-Menü oder den Befehl „Übersetzen“ verwendest, lädt sie die Liste der verwendeten KI-Modelle von dieser Website. Die Anfrage enthält weder Text, den du übersetzt, noch personenbezogene Daten, aber wie bei jedem Websitebesuch kann GitHub deine IP-Adresse protokollieren.

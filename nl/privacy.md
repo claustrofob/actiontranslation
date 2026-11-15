@@ -59,6 +59,8 @@ Als Action Translation je standaardvertaalapp is, geeft het commando Vertaal in 
 
 Apple verwerkt downloads uit de App Store volgens zijn eigen privacybeleid. Als je in je iOS-instellingen kiest om analyses te delen met app-ontwikkelaars, kan Apple de ontwikkelaar crash- en gebruiksrapporten geven die jou niet identificeren.
 
+Fooien in Instellingen zijn optionele in-app-aankopen. Apple handelt de betaling af volgens de eigen voorwaarden; de ontwikkelaar ontvangt geen betaalgegevens en een fooi ontgrendelt niets.
+
 Deze website wordt gehost op GitHub Pages, en GitHub kan de IP-adressen van bezoekers registreren. De website zelf gebruikt geen cookies of analyses.
 
 Telkens als je de app opent of gebruikt via het deelmenu of het commando Vertaal, downloadt hij de lijst met AI-modellen die hij gebruikt van deze website. Het verzoek bevat geen tekst die je vertaalt en geen persoonsgegevens, maar zoals bij elk websitebezoek kan GitHub je IP-adres vastleggen.

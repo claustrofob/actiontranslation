@@ -59,6 +59,8 @@ Jeśli Action Translation jest Twoją domyślną aplikacją do tłumaczenia, pol
 
 Pobieraniem z App Store zajmuje się Apple zgodnie z własną polityką prywatności. Jeśli w ustawieniach iOS zdecydujesz się udostępniać dane analityczne twórcom aplikacji, Apple może przekazywać twórcy raporty o awariach i użyciu, które nie pozwalają Cię zidentyfikować.
 
+Napiwki w Ustawieniach to dobrowolne zakupy w aplikacji. Płatność obsługuje Apple na własnych warunkach; twórca nie otrzymuje danych płatniczych, a napiwek niczego nie odblokowuje.
+
 Ta strona jest hostowana w serwisie GitHub Pages, a GitHub może rejestrować adresy IP odwiedzających. Sama strona nie używa plików cookie ani analityki.
 
 Za każdym razem, gdy otwierasz aplikację lub korzystasz z niej przez menu udostępniania albo polecenie Przetłumacz, pobiera ona z tej strony listę używanych modeli AI. Żądanie nie zawiera tłumaczonego tekstu ani danych osobowych, ale jak przy każdej wizycie na stronie GitHub może zapisać Twój adres IP.

@@ -59,6 +59,8 @@ Action Translation varsayılan çeviri uygulamanızsa diğer uygulamalardaki Çe
 
 App Store indirmeleri, Apple tarafından kendi gizlilik politikası kapsamında yürütülür. iOS ayarlarınızda analiz verilerini uygulama geliştiricileriyle paylaşmayı seçerseniz Apple, geliştiriciye sizi tanımlamayan kilitlenme ve kullanım raporları sağlayabilir.
 
+Ayarlar'daki bahşişler isteğe bağlı uygulama içi satın alımlardır. Ödemeyi Apple kendi koşullarına göre işler; geliştirici hiçbir ödeme bilgisi almaz ve bahşiş hiçbir şeyin kilidini açmaz.
+
 Bu web sitesi GitHub Pages'te barındırılır ve GitHub ziyaretçilerin IP adreslerini kaydedebilir. Web sitesinin kendisi çerez veya analiz kullanmaz.
 
 Uygulamayı her açtığınızda ya da Paylaş menüsünden veya Çevir komutuyla kullandığınızda, kullandığı yapay zekâ modellerinin listesini bu web sitesinden indirir. Bu istek çevirdiğiniz metni veya kişisel veri içermez; ancak her web sitesi ziyaretinde olduğu gibi GitHub IP adresinizi kaydedebilir.
