@@ -6,7 +6,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-Last updated: November 11, 2026
+Last updated: November 15, 2026
 
 Action Translation is an iPhone and iPad app that translates text using an AI provider you choose. This policy explains what happens to your data when you use it.
 
@@ -60,6 +60,8 @@ If Action Translation is your default translation app, the Translate command in 
 Apple handles App Store downloads under its own privacy policy. If you choose to share analytics with app developers in your iOS settings, Apple may give the developer crash and usage reports that do not identify you.
 
 This website is hosted on GitHub Pages, and GitHub may log visitors' IP addresses. The website itself uses no cookies or analytics.
+
+Each time you open the app, or use it from the Share menu or the Translate command, it downloads the list of AI models it uses from this website. The request contains no text you translate and no personal data, but as with any website visit, GitHub may log your IP address.
 
 ## Children
 

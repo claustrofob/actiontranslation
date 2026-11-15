@@ -4,52 +4,31 @@
   "currency": "USD",
   "providers": {
     "google": {
-      "models": [
-        {
-          "id": "gemini-3.5-flash-lite",
-          "name": "Gemini 3.5 Flash-Lite",
-          "inputPricePerMillion": 0.30,
-          "outputPricePerMillion": 2.50
-        },
-        {
-          "id": "gemini-3.8-flash",
-          "name": "Gemini 3.8 Flash",
-          "inputPricePerMillion": 0.75,
-          "outputPricePerMillion": 3.75
-        }
-      ]
+      "model": {
+        "id": "gemini-3.5-flash-lite",
+        "name": "Gemini 3.5 Flash-Lite",
+        "reasoning": "minimal",
+        "inputPricePerMillion": 0.30,
+        "outputPricePerMillion": 2.50
+      }
     },
     "anthropic": {
-      "models": [
-        {
-          "id": "claude-haiku-5-5",
-          "name": "Claude Haiku 5.5",
-          "inputPricePerMillion": 0.10,
-          "outputPricePerMillion": 0.50
-        },
-        {
-          "id": "claude-sonnet-5-5",
-          "name": "Claude Sonnet 5.5",
-          "inputPricePerMillion": 2.00,
-          "outputPricePerMillion": 10.00
-        }
-      ]
+      "model": {
+        "id": "claude-haiku-5-5",
+        "name": "Claude Haiku 5.5",
+        "reasoning": "low",
+        "inputPricePerMillion": 0.10,
+        "outputPricePerMillion": 0.50
+      }
     },
     "openai": {
-      "models": [
-        {
-          "id": "gpt-6-luna",
-          "name": "GPT-6 Luna",
-          "inputPricePerMillion": 0.10,
-          "outputPricePerMillion": 0.50
-        },
-        {
-          "id": "gpt-6.1-terra",
-          "name": "GPT-6.1 Terra",
-          "inputPricePerMillion": 1.00,
-          "outputPricePerMillion": 5.00
-        }
-      ]
+      "model": {
+        "id": "gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "reasoning": "none",
+        "inputPricePerMillion": 0.10,
+        "outputPricePerMillion": 0.50
+      }
     }
   }
 }

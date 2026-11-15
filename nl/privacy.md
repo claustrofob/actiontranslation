@@ -6,7 +6,7 @@ title: Privacybeleid
 
 # Privacybeleid
 
-Laatst bijgewerkt: 11 november 2026
+Laatst bijgewerkt: 15 november 2026
 
 Action Translation is een app voor iPhone en iPad die tekst vertaalt met de AI-aanbieder die jij kiest. Dit beleid legt uit wat er met je gegevens gebeurt wanneer je de app gebruikt.
 
@@ -60,6 +60,8 @@ Als Action Translation je standaardvertaalapp is, geeft het commando Vertaal in 
 Apple verwerkt downloads uit de App Store volgens zijn eigen privacybeleid. Als je in je iOS-instellingen kiest om analyses te delen met app-ontwikkelaars, kan Apple de ontwikkelaar crash- en gebruiksrapporten geven die jou niet identificeren.
 
 Deze website wordt gehost op GitHub Pages, en GitHub kan de IP-adressen van bezoekers registreren. De website zelf gebruikt geen cookies of analyses.
+
+Telkens als je de app opent of gebruikt via het deelmenu of het commando Vertaal, downloadt hij de lijst met AI-modellen die hij gebruikt van deze website. Het verzoek bevat geen tekst die je vertaalt en geen persoonsgegevens, maar zoals bij elk websitebezoek kan GitHub je IP-adres vastleggen.
 
 ## Kinderen
 

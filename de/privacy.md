@@ -6,7 +6,7 @@ title: Datenschutzerklärung
 
 # Datenschutzerklärung
 
-Zuletzt aktualisiert: 11. November 2026
+Zuletzt aktualisiert: 15. November 2026
 
 Action Translation ist eine App für iPhone und iPad, die Text mit einem KI-Anbieter deiner Wahl übersetzt. Diese Erklärung beschreibt, was mit deinen Daten geschieht, wenn du die App verwendest.
 
@@ -60,6 +60,8 @@ Wenn Action Translation deine Standard-App für Übersetzungen ist, erhält sie 
 Apple wickelt Downloads aus dem App Store nach seiner eigenen Datenschutzrichtlinie ab. Wenn du in deinen iOS-Einstellungen Analysedaten mit App-Entwicklern teilst, kann Apple dem Entwickler Absturz- und Nutzungsberichte bereitstellen, die dich nicht identifizieren.
 
 Diese Website wird auf GitHub Pages gehostet, und GitHub kann die IP-Adressen von Besuchern protokollieren. Die Website selbst verwendet keine Cookies oder Analysen.
+
+Jedes Mal, wenn du die App öffnest oder sie über das Teilen-Menü oder den Befehl „Übersetzen“ verwendest, lädt sie die Liste der verwendeten KI-Modelle von dieser Website. Die Anfrage enthält weder Text, den du übersetzt, noch personenbezogene Daten, aber wie bei jedem Websitebesuch kann GitHub deine IP-Adresse protokollieren.
 
 ## Kinder
 

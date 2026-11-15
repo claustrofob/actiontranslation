@@ -6,7 +6,7 @@ title: Politique de confidentialité
 
 # Politique de confidentialité
 
-Dernière mise à jour : 11 novembre 2026
+Dernière mise à jour : 15 novembre 2026
 
 Action Translation est une app pour iPhone et iPad qui traduit du texte à l’aide du fournisseur d’IA de votre choix. Cette politique explique ce qu’il advient de vos données lorsque vous l’utilisez.
 
@@ -60,6 +60,8 @@ Si Action Translation est votre app de traduction par défaut, la commande Tradu
 Apple gère les téléchargements sur l’App Store selon sa propre politique de confidentialité. Si vous choisissez de partager des données d’analyse avec les développeurs d’apps dans vos réglages iOS, Apple peut transmettre au développeur des rapports d’utilisation et de plantage qui ne vous identifient pas.
 
 Ce site web est hébergé sur GitHub Pages, et GitHub peut enregistrer les adresses IP des visiteurs. Le site lui-même n’utilise ni cookies ni outils d’analyse.
+
+Chaque fois que vous ouvrez l’app ou l’utilisez depuis le menu de partage ou la commande Traduire, elle télécharge depuis ce site la liste des modèles d’IA qu’elle utilise. Cette requête ne contient ni le texte que vous traduisez ni aucune donnée personnelle, mais, comme pour toute visite d’un site, GitHub peut enregistrer votre adresse IP.
 
 ## Enfants
 

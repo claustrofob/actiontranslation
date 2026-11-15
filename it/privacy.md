@@ -6,7 +6,7 @@ title: Informativa sulla privacy
 
 # Informativa sulla privacy
 
-Ultimo aggiornamento: 11 novembre 2026
+Ultimo aggiornamento: 15 novembre 2026
 
 Action Translation è un’app per iPhone e iPad che traduce il testo con il fornitore di IA che scegli. Questa informativa spiega cosa succede ai tuoi dati quando la usi.
 
@@ -60,6 +60,8 @@ Se Action Translation è la tua app di traduzione predefinita, il comando Traduc
 Apple gestisce i download dall’App Store secondo la propria informativa sulla privacy. Se scegli di condividere le analisi con gli sviluppatori di app nelle impostazioni di iOS, Apple può fornire allo sviluppatore report su arresti anomali e utilizzo che non ti identificano.
 
 Questo sito web è ospitato su GitHub Pages e GitHub può registrare gli indirizzi IP dei visitatori. Il sito stesso non usa cookie né strumenti di analisi.
+
+Ogni volta che apri l’app o la usi dal menu di condivisione o dal comando Traduci, scarica da questo sito l’elenco dei modelli di IA che utilizza. La richiesta non contiene il testo che traduci né dati personali, ma, come per qualsiasi visita a un sito, GitHub può registrare il tuo indirizzo IP.
 
 ## Minori
 

@@ -6,7 +6,7 @@ title: Gizlilik Politikası
 
 # Gizlilik Politikası
 
-Son güncelleme: 11 Kasım 2026
+Son güncelleme: 15 Kasım 2026
 
 Action Translation, metinleri seçtiğiniz yapay zekâ sağlayıcısıyla çeviren bir iPhone ve iPad uygulamasıdır. Bu politika, uygulamayı kullandığınızda verilerinize ne olduğunu açıklar.
 
@@ -60,6 +60,8 @@ Action Translation varsayılan çeviri uygulamanızsa diğer uygulamalardaki Çe
 App Store indirmeleri, Apple tarafından kendi gizlilik politikası kapsamında yürütülür. iOS ayarlarınızda analiz verilerini uygulama geliştiricileriyle paylaşmayı seçerseniz Apple, geliştiriciye sizi tanımlamayan kilitlenme ve kullanım raporları sağlayabilir.
 
 Bu web sitesi GitHub Pages'te barındırılır ve GitHub ziyaretçilerin IP adreslerini kaydedebilir. Web sitesinin kendisi çerez veya analiz kullanmaz.
+
+Uygulamayı her açtığınızda ya da Paylaş menüsünden veya Çevir komutuyla kullandığınızda, kullandığı yapay zekâ modellerinin listesini bu web sitesinden indirir. Bu istek çevirdiğiniz metni veya kişisel veri içermez; ancak her web sitesi ziyaretinde olduğu gibi GitHub IP adresinizi kaydedebilir.
 
 ## Çocuklar
 
