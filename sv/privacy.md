@@ -6,7 +6,7 @@ title: Integritetspolicy
 
 # Integritetspolicy
 
-Senast uppdaterad: 15 november 2026
+Senast uppdaterad: 21 november 2026
 
 Action Translation är en app för iPhone och iPad som översätter text med den AI-leverantör du väljer. Den här policyn förklarar vad som händer med dina data när du använder appen.
 
@@ -14,7 +14,7 @@ Action Translation är en app för iPhone och iPad som översätter text med den
 
 - Utvecklaren av Action Translation samlar inte in, tar inte emot och lagrar inte dina data. Appen har inga konton, servrar, annonser, analysverktyg eller spårning.
 - När du startar en översättning skickas texten direkt från din enhet till den AI-leverantör du har valt.
-- Din översättningshistorik, dina inställningar och API-nycklar stannar på din enhet.
+- Dina inställningar och API-nycklar stannar på din enhet. Din översättningshistorik stannar på din enhet och, med iCloud-synkronisering på, i ditt eget iCloud-konto.
 
 ## Vad som skickas till din AI-leverantör
 
@@ -40,7 +40,13 @@ Leverantören behandlar dessa data enligt sina egna villkor och sin integritetsp
 - **Inställningar:** din leverantör, dina modeller, ditt målspråk och de språk du använder mest.
 - **API-nycklar:** lagras i iOS-nyckelringen.
 
-Appen och dess tillägg för delning och för kommandot Översätt använder dessa data tillsammans på din enhet. Appen synkroniserar dem inte med någon server, men de kan ingå i säkerhetskopior av enheten beroende på dina iOS-inställningar.
+Appen och dess tillägg för delning och för kommandot Översätt använder dessa data tillsammans på din enhet. Inställningar och API-nycklar synkroniseras ingenstans; historiken synkroniseras bara via din iCloud, som beskrivs nedan. Dessa data kan också ingå i säkerhetskopior av enheten beroende på dina iOS-inställningar.
+
+## iCloud-synkronisering
+
+Med iCloud-synkronisering på i inställningarna (den är på som standard) sparar appen din översättningshistorik i den privata iCloud-databasen för ditt Apple-konto, så att historiken är densamma på alla enheter som är inloggade med det. Apple lagrar dessa data enligt sin egen integritetspolicy; utvecklaren har ingen åtkomst till dem. Inställningar och API-nycklar synkroniseras inte.
+
+Om du inte är inloggad i iCloud, eller om iCloud är avstängt för appen, stannar historiken bara på din enhet. Stäng av iCloud-synkronisering i inställningarna för att sluta synkronisera; kopian som redan finns i iCloud ligger kvar tills du raderar den.
 
 ## Innehåll från andra appar och åtkomst till enheten
 
@@ -51,8 +57,9 @@ Om Action Translation är din förvalda översättningsapp får den bara den mar
 ## Radera dina data
 
 - Svep på en översättning i historiken för att radera den.
+- Med iCloud-synkronisering på raderas en översättning du raderar även från iCloud och från dina andra enheter.
 - Töm fältet för en API-nyckel i Inställningar för att ta bort den.
-- När du raderar appen tas historiken och inställningarna bort. iOS kan behålla objekt i nyckelringen efter att en app har raderats, så rensa dina API-nycklar först.
+- När du raderar appen tas inställningarna och historiken på den enheten bort. Historiken i iCloud finns kvar: för att radera den, gå till Inställningar > [ditt namn] > iCloud > Hantera lagring > Action Translation och radera dess data. iOS kan behålla objekt i nyckelringen efter att en app har raderats, så rensa dina API-nycklar först.
 - Kontakta din AI-leverantör för att få tillgång till eller radera data som leverantören har sparat.
 
 ## Apple och den här webbplatsen

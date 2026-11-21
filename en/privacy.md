@@ -6,7 +6,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-Last updated: November 15, 2026
+Last updated: November 21, 2026
 
 Action Translation is an iPhone and iPad app that translates text using an AI provider you choose. This policy explains what happens to your data when you use it.
 
@@ -14,7 +14,7 @@ Action Translation is an iPhone and iPad app that translates text using an AI pr
 
 - The developer of Action Translation does not collect, receive, or store your data. The app has no accounts, servers, ads, analytics, or tracking.
 - When you start a translation, your text goes directly from your device to the AI provider you selected.
-- Your translation history, settings, and API keys are kept on your device.
+- Your settings and API keys are kept on your device. Your translation history is kept on your device and, with iCloud Sync on, in your own iCloud account.
 
 ## What is sent to your AI provider
 
@@ -40,7 +40,13 @@ Your provider handles this data under its own terms and privacy policy and under
 - **Settings:** your provider, models, target language, and the languages you use most.
 - **API keys:** stored in the iOS Keychain.
 
-The app and its extensions, for the Share menu and for the Translate command, use this data together on your device. The app does not sync it to any server, but it may be included in device backups according to your iOS settings.
+The app and its extensions, for the Share menu and for the Translate command, use this data together on your device. Settings and API keys are not synced anywhere; the history is synced only through your iCloud, as described below. This data may also be included in device backups according to your iOS settings.
+
+## iCloud sync
+
+With iCloud Sync on in Settings (it's on by default), the app keeps your translation history in the private iCloud database of your Apple Account, so the history is the same on all your devices signed in to it. Apple stores this data under its own privacy policy; the developer has no access to it. Settings and API keys are not synced.
+
+If you're not signed in to iCloud, or iCloud is off for the app, the history stays only on your device. To stop syncing, turn off iCloud Sync in Settings; the copy already in iCloud stays until you delete it.
 
 ## Content from other apps and device access
 
@@ -51,8 +57,9 @@ If Action Translation is your default translation app, the Translate command in 
 ## Deleting your data
 
 - To delete a translation, swipe it in the history.
+- With iCloud Sync on, a translation you delete is also deleted from iCloud and from your other devices.
 - To remove an API key, clear its field in Settings.
-- Deleting the app removes your history and settings. iOS may keep Keychain items after an app is deleted, so clear your API keys first.
+- Deleting the app removes your settings and the history on that device. The history in iCloud stays: to delete it, go to Settings > [your name] > iCloud > Manage Storage > Action Translation and delete its data. iOS may keep Keychain items after an app is deleted, so clear your API keys first.
 - To access or delete data held by your AI provider, contact that provider.
 
 ## Apple and this website

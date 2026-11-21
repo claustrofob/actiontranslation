@@ -6,7 +6,7 @@ title: Gizlilik Politikası
 
 # Gizlilik Politikası
 
-Son güncelleme: 15 Kasım 2026
+Son güncelleme: 21 Kasım 2026
 
 Action Translation, metinleri seçtiğiniz yapay zekâ sağlayıcısıyla çeviren bir iPhone ve iPad uygulamasıdır. Bu politika, uygulamayı kullandığınızda verilerinize ne olduğunu açıklar.
 
@@ -14,7 +14,7 @@ Action Translation, metinleri seçtiğiniz yapay zekâ sağlayıcısıyla çevir
 
 - Action Translation geliştiricisi verilerinizi toplamaz, almaz veya saklamaz. Uygulamada hesap, sunucu, reklam, analiz veya izleme yoktur.
 - Bir çeviri başlattığınızda metniniz, cihazınızdan doğrudan seçtiğiniz yapay zekâ sağlayıcısına gönderilir.
-- Çeviri geçmişiniz, ayarlarınız ve API anahtarlarınız cihazınızda tutulur.
+- Ayarlarınız ve API anahtarlarınız cihazınızda tutulur. Çeviri geçmişiniz cihazınızda ve iCloud Eşzamanlama açıksa kendi iCloud hesabınızda tutulur.
 
 ## Yapay zekâ sağlayıcınıza neler gönderilir
 
@@ -40,7 +40,13 @@ Sağlayıcınız bu verileri kendi koşullarına, gizlilik politikasına ve sizi
 - **Ayarlar:** sağlayıcınız, modelleriniz, hedef diliniz ve en çok kullandığınız diller.
 - **API anahtarları:** iOS Anahtar Zinciri'nde saklanır.
 
-Uygulama ile Paylaş ve Çevir komutu uzantıları bu verileri cihazınızda birlikte kullanır. Uygulama bu verileri hiçbir sunucuyla eşzamanlamaz, ancak iOS ayarlarınıza bağlı olarak cihaz yedeklerine dahil edilebilirler.
+Uygulama ile Paylaş ve Çevir komutu uzantıları bu verileri cihazınızda birlikte kullanır. Ayarlar ve API anahtarları hiçbir yerle eşzamanlanmaz; geçmiş yalnızca aşağıda açıklandığı gibi iCloud'unuz üzerinden eşzamanlanır. Bu veriler, iOS ayarlarınıza bağlı olarak cihaz yedeklerine de dahil edilebilir.
+
+## iCloud Eşzamanlama
+
+Ayarlar'da iCloud Eşzamanlama açıksa (varsayılan olarak açıktır), uygulama çeviri geçmişinizi Apple Hesabınızın özel iCloud veritabanında saklar; böylece geçmiş, bu hesapla oturum açılmış tüm cihazlarınızda aynıdır. Apple bu verileri kendi gizlilik politikasına göre saklar; geliştiricinin bunlara erişimi yoktur. Ayarlar ve API anahtarları eşzamanlanmaz.
+
+iCloud'da oturum açmadıysanız veya iCloud uygulama için kapalıysa geçmiş yalnızca cihazınızda kalır. Eşzamanlamayı durdurmak için Ayarlar'da iCloud Eşzamanlama'yı kapatın; iCloud'daki mevcut kopya siz silene kadar orada kalır.
 
 ## Diğer uygulamalardan gelen içerik ve cihaz erişimi
 
@@ -51,8 +57,9 @@ Action Translation varsayılan çeviri uygulamanızsa diğer uygulamalardaki Çe
 ## Verilerinizi silme
 
 - Bir çeviriyi silmek için geçmişte üzerinde kaydırın.
+- iCloud Eşzamanlama açıkken sildiğiniz bir çeviri iCloud'dan ve diğer cihazlarınızdan da silinir.
 - Bir API anahtarını kaldırmak için Ayarlar'daki alanını boşaltın.
-- Uygulamayı silmek geçmişinizi ve ayarlarınızı kaldırır. iOS, uygulama silindikten sonra Anahtar Zinciri öğelerini saklayabilir; bu nedenle önce API anahtarlarınızı temizleyin.
+- Uygulamayı silmek ayarlarınızı ve o cihazdaki geçmişi kaldırır. iCloud'daki geçmiş kalır: silmek için Ayarlar > [adınız] > iCloud > Saklama Alanını Yönet > Action Translation'a gidip verilerini silin. iOS, uygulama silindikten sonra Anahtar Zinciri öğelerini saklayabilir; bu nedenle önce API anahtarlarınızı temizleyin.
 - Yapay zekâ sağlayıcınızın tuttuğu verilere erişmek veya bunları silmek için ilgili sağlayıcıyla iletişime geçin.
 
 ## Apple ve bu web sitesi

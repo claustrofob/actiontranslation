@@ -6,7 +6,7 @@ title: Datenschutzerklärung
 
 # Datenschutzerklärung
 
-Zuletzt aktualisiert: 15. November 2026
+Zuletzt aktualisiert: 21. November 2026
 
 Action Translation ist eine App für iPhone und iPad, die Text mit einem KI-Anbieter deiner Wahl übersetzt. Diese Erklärung beschreibt, was mit deinen Daten geschieht, wenn du die App verwendest.
 
@@ -14,7 +14,7 @@ Action Translation ist eine App für iPhone und iPad, die Text mit einem KI-Anbi
 
 - Der Entwickler von Action Translation erhebt, empfängt und speichert deine Daten nicht. Die App hat keine Konten, Server, Werbung, Analysen oder Tracking.
 - Wenn du eine Übersetzung startest, wird dein Text direkt von deinem Gerät an den ausgewählten KI-Anbieter gesendet.
-- Dein Übersetzungsverlauf, deine Einstellungen und deine API-Schlüssel bleiben auf deinem Gerät.
+- Deine Einstellungen und API-Schlüssel bleiben auf deinem Gerät. Dein Übersetzungsverlauf bleibt auf deinem Gerät und, wenn die iCloud-Synchronisierung aktiviert ist, in deinem eigenen iCloud-Account.
 
 ## Was an deinen KI-Anbieter gesendet wird
 
@@ -40,7 +40,13 @@ Dein Anbieter verarbeitet diese Daten nach seinen eigenen Bedingungen und seiner
 - **Einstellungen:** dein Anbieter, deine Modelle, die Zielsprache und die Sprachen, die du am häufigsten verwendest.
 - **API-Schlüssel:** werden im iOS-Schlüsselbund gespeichert.
 
-Die App und ihre Erweiterungen für das Teilen-Menü und den Befehl „Übersetzen“ nutzen diese Daten gemeinsam auf deinem Gerät. Die App synchronisiert sie mit keinem Server, sie können aber je nach deinen iOS-Einstellungen in Gerätebackups enthalten sein.
+Die App und ihre Erweiterungen für das Teilen-Menü und den Befehl „Übersetzen“ nutzen diese Daten gemeinsam auf deinem Gerät. Einstellungen und API-Schlüssel werden nirgendwohin synchronisiert; der Verlauf wird nur über deine iCloud synchronisiert, wie unten beschrieben. Diese Daten können außerdem je nach deinen iOS-Einstellungen in Gerätebackups enthalten sein.
+
+## iCloud-Synchronisierung
+
+Ist die iCloud-Synchronisierung in den Einstellungen aktiviert (standardmäßig ist sie an), speichert die App deinen Übersetzungsverlauf in der privaten iCloud-Datenbank deines Apple Accounts. So ist der Verlauf auf allen Geräten gleich, auf denen du mit diesem Account angemeldet bist. Apple speichert diese Daten gemäß seiner eigenen Datenschutzrichtlinie; der Entwickler hat keinen Zugriff darauf. Einstellungen und API-Schlüssel werden nicht synchronisiert.
+
+Bist du nicht bei iCloud angemeldet oder ist iCloud für die App deaktiviert, bleibt der Verlauf nur auf deinem Gerät. Um die Synchronisierung zu beenden, deaktiviere die iCloud-Synchronisierung in den Einstellungen; die Kopie, die bereits in iCloud liegt, bleibt dort, bis du sie löschst.
 
 ## Inhalte aus anderen Apps und Gerätezugriff
 
@@ -51,8 +57,9 @@ Wenn Action Translation deine Standard-App für Übersetzungen ist, erhält sie 
 ## Deine Daten löschen
 
 - Um eine Übersetzung zu löschen, wische sie im Verlauf zur Seite.
+- Bei aktivierter iCloud-Synchronisierung wird eine gelöschte Übersetzung auch aus iCloud und von deinen anderen Geräten gelöscht.
 - Um einen API-Schlüssel zu entfernen, leere sein Feld in den Einstellungen.
-- Wenn du die App löschst, werden dein Verlauf und deine Einstellungen entfernt. iOS kann Schlüsselbundeinträge nach dem Löschen einer App behalten, entferne deine API-Schlüssel daher zuerst.
+- Wenn du die App löschst, werden deine Einstellungen und der Verlauf auf diesem Gerät entfernt. Der Verlauf in iCloud bleibt: Um ihn zu löschen, öffne Einstellungen > [dein Name] > iCloud > Speicher verwalten > Action Translation und lösche die Daten. iOS kann Schlüsselbundeinträge nach dem Löschen einer App behalten, entferne deine API-Schlüssel daher zuerst.
 - Für den Zugriff auf Daten bei deinem KI-Anbieter oder deren Löschung wende dich an diesen Anbieter.
 
 ## Apple und diese Website

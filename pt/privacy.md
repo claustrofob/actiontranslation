@@ -6,7 +6,7 @@ title: Política de Privacidade
 
 # Política de Privacidade
 
-Última atualização: 15 de novembro de 2026
+Última atualização: 21 de novembro de 2026
 
 O Action Translation é um app para iPhone e iPad que traduz textos com o provedor de IA que você escolher. Esta política explica o que acontece com seus dados quando você usa o app.
 
@@ -14,7 +14,7 @@ O Action Translation é um app para iPhone e iPad que traduz textos com o proved
 
 - O desenvolvedor do Action Translation não coleta, não recebe e não armazena seus dados. O app não tem contas, servidores, anúncios, análises nem rastreamento.
 - Quando você inicia uma tradução, seu texto é enviado diretamente do seu dispositivo para o provedor de IA selecionado.
-- Seu histórico de traduções, seus ajustes e suas chaves de API ficam no seu dispositivo.
+- Seus ajustes e suas chaves de API ficam no seu dispositivo. Seu histórico de traduções fica no seu dispositivo e, com a sincronização com o iCloud ativada, na sua própria conta do iCloud.
 
 ## O que é enviado ao seu provedor de IA
 
@@ -40,7 +40,13 @@ O provedor trata esses dados de acordo com os próprios termos e a própria pol�
 - **Ajustes:** seu provedor, seus modelos, o idioma de destino e os idiomas que você mais usa.
 - **Chaves de API:** armazenadas no Keychain do iOS.
 
-O app e as extensões dele, para compartilhamento e para o comando Traduzir, usam esses dados em conjunto no seu dispositivo. O app não os sincroniza com nenhum servidor, mas eles podem ser incluídos em backups do dispositivo, de acordo com seus ajustes do iOS.
+O app e as extensões dele, para compartilhamento e para o comando Traduzir, usam esses dados em conjunto no seu dispositivo. Os ajustes e as chaves de API não são sincronizados com nenhum lugar; o histórico é sincronizado apenas pelo seu iCloud, como descrito abaixo. Esses dados também podem ser incluídos em backups do dispositivo, de acordo com seus ajustes do iOS.
+
+## Sincronização com o iCloud
+
+Com a sincronização com o iCloud ativada nos ajustes (ela vem ativada), o app guarda seu histórico de traduções no banco de dados privado do iCloud da sua Conta Apple, então o histórico é o mesmo em todos os dispositivos conectados a ela. A Apple armazena esses dados de acordo com a própria política de privacidade; o desenvolvedor não tem acesso a eles. Os ajustes e as chaves de API não são sincronizados.
+
+Se você não tiver uma sessão iniciada no iCloud, ou se o iCloud estiver desativado para o app, o histórico fica apenas no seu dispositivo. Para parar de sincronizar, desative a sincronização com o iCloud nos ajustes; a cópia que já está no iCloud continua lá até você apagá-la.
 
 ## Conteúdo de outros apps e acesso ao dispositivo
 
@@ -51,8 +57,9 @@ Se o Action Translation for seu app de tradução padrão, o comando Traduzir em
 ## Como apagar seus dados
 
 - Para apagar uma tradução, deslize-a no histórico.
+- Com a sincronização com o iCloud ativada, uma tradução apagada também é apagada do iCloud e dos seus outros dispositivos.
 - Para remover uma chave de API, limpe o campo dela nos Ajustes.
-- Ao apagar o app, seu histórico e seus ajustes são removidos. O iOS pode manter itens do Keychain depois que um app é apagado, então limpe suas chaves de API antes.
+- Ao apagar o app, seus ajustes e o histórico daquele dispositivo são removidos. O histórico no iCloud continua: para apagá-lo, acesse Ajustes > [seu nome] > iCloud > Gerenciar Armazenamento > Action Translation e apague os dados. O iOS pode manter itens do Keychain depois que um app é apagado, então limpe suas chaves de API antes.
 - Para acessar ou apagar dados mantidos pelo seu provedor de IA, entre em contato com ele.
 
 ## A Apple e este site

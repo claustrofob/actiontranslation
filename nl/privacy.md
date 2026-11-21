@@ -6,7 +6,7 @@ title: Privacybeleid
 
 # Privacybeleid
 
-Laatst bijgewerkt: 15 november 2026
+Laatst bijgewerkt: 21 november 2026
 
 Action Translation is een app voor iPhone en iPad die tekst vertaalt met de AI-aanbieder die jij kiest. Dit beleid legt uit wat er met je gegevens gebeurt wanneer je de app gebruikt.
 
@@ -14,7 +14,7 @@ Action Translation is een app voor iPhone en iPad die tekst vertaalt met de AI-a
 
 - De ontwikkelaar van Action Translation verzamelt, ontvangt en bewaart je gegevens niet. De app heeft geen accounts, servers, advertenties, analyses of tracking.
 - Wanneer je een vertaling start, gaat je tekst rechtstreeks van je apparaat naar de geselecteerde AI-aanbieder.
-- Je vertaalgeschiedenis, instellingen en API-sleutels blijven op je apparaat.
+- Je instellingen en API-sleutels blijven op je apparaat. Je vertaalgeschiedenis blijft op je apparaat en, met iCloud-synchronisatie aan, in je eigen iCloud-account.
 
 ## Wat naar je AI-aanbieder wordt verzonden
 
@@ -40,7 +40,13 @@ Je aanbieder verwerkt deze gegevens volgens zijn eigen voorwaarden en privacybel
 - **Instellingen:** je aanbieder, modellen, doeltaal en de talen die je het meest gebruikt.
 - **API-sleutels:** bewaard in de iOS-sleutelhanger.
 
-De app en de bijbehorende extensies voor delen en voor het commando Vertaal gebruiken deze gegevens samen op je apparaat. De app synchroniseert ze met geen enkele server, maar ze kunnen volgens je iOS-instellingen in apparaatback-ups worden opgenomen.
+De app en de bijbehorende extensies voor delen en voor het commando Vertaal gebruiken deze gegevens samen op je apparaat. Instellingen en API-sleutels worden nergens mee gesynchroniseerd; de geschiedenis wordt alleen via je iCloud gesynchroniseerd, zoals hieronder beschreven. Deze gegevens kunnen ook volgens je iOS-instellingen in apparaatback-ups worden opgenomen.
+
+## iCloud-synchronisatie
+
+Met iCloud-synchronisatie aan in de instellingen (standaard staat die aan) bewaart de app je vertaalgeschiedenis in de privé-iCloud-database van je Apple Account, zodat de geschiedenis op al je apparaten met dat account hetzelfde is. Apple bewaart deze gegevens volgens zijn eigen privacybeleid; de ontwikkelaar heeft er geen toegang toe. Instellingen en API-sleutels worden niet gesynchroniseerd.
+
+Ben je niet ingelogd bij iCloud, of staat iCloud uit voor de app, dan blijft de geschiedenis alleen op je apparaat. Wil je stoppen met synchroniseren, zet iCloud-synchronisatie dan uit in de instellingen; de kopie die al in iCloud staat, blijft daar tot je hem verwijdert.
 
 ## Inhoud uit andere apps en toegang tot je apparaat
 
@@ -51,8 +57,9 @@ Als Action Translation je standaardvertaalapp is, geeft het commando Vertaal in 
 ## Je gegevens verwijderen
 
 - Veeg over een vertaling in de geschiedenis om deze te verwijderen.
+- Met iCloud-synchronisatie aan wordt een vertaling die je verwijdert ook uit iCloud en van je andere apparaten verwijderd.
 - Maak het veld van een API-sleutel leeg in Instellingen om de sleutel te verwijderen.
-- Als je de app verwijdert, worden je geschiedenis en instellingen verwijderd. iOS kan sleutelhangeronderdelen bewaren nadat een app is verwijderd, dus wis eerst je API-sleutels.
+- Als je de app verwijdert, worden je instellingen en de geschiedenis op dat apparaat verwijderd. De geschiedenis in iCloud blijft: om die te verwijderen, ga je naar Instellingen > [je naam] > iCloud > Beheer opslag > Action Translation en verwijder je de gegevens. iOS kan sleutelhangeronderdelen bewaren nadat een app is verwijderd, dus wis eerst je API-sleutels.
 - Neem contact op met je AI-aanbieder om gegevens die deze bewaart in te zien of te verwijderen.
 
 ## Apple en deze website

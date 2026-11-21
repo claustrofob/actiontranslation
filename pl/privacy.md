@@ -6,7 +6,7 @@ title: Polityka prywatności
 
 # Polityka prywatności
 
-Ostatnia aktualizacja: 15 listopada 2026 r.
+Ostatnia aktualizacja: 21 listopada 2026 r.
 
 Action Translation to aplikacja na iPhone’a i iPada, która tłumaczy tekst za pomocą wybranego przez Ciebie dostawcy AI. Niniejsza polityka wyjaśnia, co dzieje się z Twoimi danymi podczas korzystania z aplikacji.
 
@@ -14,7 +14,7 @@ Action Translation to aplikacja na iPhone’a i iPada, która tłumaczy tekst za
 
 - Twórca Action Translation nie zbiera, nie otrzymuje ani nie przechowuje Twoich danych. Aplikacja nie ma kont, serwerów, reklam, analityki ani śledzenia.
 - Po rozpoczęciu tłumaczenia tekst jest wysyłany bezpośrednio z Twojego urządzenia do wybranego dostawcy AI.
-- Historia tłumaczeń, ustawienia i klucze API pozostają na Twoim urządzeniu.
+- Ustawienia i klucze API pozostają na Twoim urządzeniu. Historia tłumaczeń pozostaje na Twoim urządzeniu, a przy włączonej synchronizacji z iCloud – także na Twoim koncie iCloud.
 
 ## Co jest wysyłane do dostawcy AI
 
@@ -40,7 +40,13 @@ Dostawca przetwarza te dane zgodnie z własnym regulaminem, polityką prywatnoś
 - **Ustawienia:** dostawca, modele, język docelowy i najczęściej używane języki.
 - **Klucze API:** przechowywane w pęku kluczy iOS.
 
-Aplikacja i jej rozszerzenia – do udostępniania i do polecenia Przetłumacz – korzystają z tych danych wspólnie na Twoim urządzeniu. Aplikacja nie synchronizuje ich z żadnym serwerem, ale mogą one zostać uwzględnione w kopiach zapasowych urządzenia zgodnie z ustawieniami iOS.
+Aplikacja i jej rozszerzenia – do udostępniania i do polecenia Przetłumacz – korzystają z tych danych wspólnie na Twoim urządzeniu. Ustawienia i klucze API nie są nigdzie synchronizowane; historia jest synchronizowana tylko przez Twój iCloud, jak opisano poniżej. Dane te mogą też zostać uwzględnione w kopiach zapasowych urządzenia zgodnie z ustawieniami iOS.
+
+## Synchronizacja z iCloud
+
+Gdy w ustawieniach włączona jest synchronizacja z iCloud (domyślnie jest włączona), aplikacja przechowuje historię tłumaczeń w prywatnej bazie danych iCloud Twojego konta Apple, dzięki czemu historia jest taka sama na wszystkich urządzeniach zalogowanych na to konto. Apple przechowuje te dane zgodnie z własną polityką prywatności; deweloper nie ma do nich dostępu. Ustawienia i klucze API nie są synchronizowane.
+
+Jeśli nie jesteś zalogowany w iCloud albo iCloud jest wyłączony dla aplikacji, historia pozostaje tylko na Twoim urządzeniu. Aby zatrzymać synchronizację, wyłącz synchronizację z iCloud w ustawieniach; kopia, która jest już w iCloud, pozostaje tam, dopóki jej nie usuniesz.
 
 ## Treści z innych aplikacji i dostęp do urządzenia
 
@@ -51,8 +57,9 @@ Jeśli Action Translation jest Twoją domyślną aplikacją do tłumaczenia, pol
 ## Usuwanie danych
 
 - Aby usunąć tłumaczenie, przesuń je palcem w historii.
+- Przy włączonej synchronizacji z iCloud usunięte tłumaczenie jest usuwane także z iCloud i z Twoich pozostałych urządzeń.
 - Aby usunąć klucz API, wyczyść jego pole w Ustawieniach.
-- Usunięcie aplikacji powoduje usunięcie historii i ustawień. iOS może zachować elementy pęku kluczy po usunięciu aplikacji, dlatego najpierw wyczyść klucze API.
+- Usunięcie aplikacji powoduje usunięcie ustawień i historii na tym urządzeniu. Historia w iCloud pozostaje: aby ją usunąć, otwórz Ustawienia > [Twoje imię i nazwisko] > iCloud > Zarządzaj pamięcią > Action Translation i usuń dane. iOS może zachować elementy pęku kluczy po usunięciu aplikacji, dlatego najpierw wyczyść klucze API.
 - Aby uzyskać dostęp do danych przechowywanych przez dostawcę AI lub je usunąć, skontaktuj się z tym dostawcą.
 
 ## Apple i ta strona internetowa

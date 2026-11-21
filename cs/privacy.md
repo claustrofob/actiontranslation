@@ -6,7 +6,7 @@ title: Zásady ochrany osobních údajů
 
 # Zásady ochrany osobních údajů
 
-Poslední aktualizace: 15. listopadu 2026
+Poslední aktualizace: 21. listopadu 2026
 
 Action Translation je aplikace pro iPhone a iPad, která překládá text pomocí poskytovatele AI podle vašeho výběru. Tyto zásady vysvětlují, co se při používání aplikace děje s vašimi údaji.
 
@@ -14,7 +14,7 @@ Action Translation je aplikace pro iPhone a iPad, která překládá text pomoc�
 
 - Vývojář aplikace Action Translation vaše údaje neshromažďuje, nepřijímá ani neukládá. Aplikace nemá účty, servery, reklamy, analytiku ani sledování.
 - Když spustíte překlad, text se odešle z vašeho zařízení přímo vybranému poskytovateli AI.
-- Historie překladů, nastavení a klíče API zůstávají ve vašem zařízení.
+- Nastavení a klíče API zůstávají ve vašem zařízení. Historie překladů zůstává ve vašem zařízení a při zapnuté synchronizaci s iCloudem také ve vašem účtu iCloud.
 
 ## Co se odesílá poskytovateli AI
 
@@ -40,7 +40,13 @@ Poskytovatel tyto údaje zpracovává podle vlastních podmínek, zásad ochrany
 - **Nastavení:** poskytovatel, modely, cílový jazyk a nejpoužívanější jazyky.
 - **Klíče API:** ukládají se do klíčenky iOS.
 
-Aplikace a její rozšíření pro sdílení a pro příkaz Přeložit používají tyto údaje společně ve vašem zařízení. Aplikace je nesynchronizuje s žádným serverem, ale podle nastavení iOS mohou být součástí záloh zařízení.
+Aplikace a její rozšíření pro sdílení a pro příkaz Přeložit používají tyto údaje společně ve vašem zařízení. Nastavení a klíče API se nikam nesynchronizují; historie se synchronizuje jen přes váš iCloud, jak je popsáno níže. Tyto údaje mohou být podle nastavení iOS také součástí záloh zařízení.
+
+## Synchronizace s iCloudem
+
+Když je v nastavení zapnutá synchronizace s iCloudem (ve výchozím stavu je zapnutá), aplikace ukládá historii překladů do soukromé databáze iCloudu vašeho účtu Apple, takže historie je stejná na všech zařízeních přihlášených k tomuto účtu. Apple tyto údaje uchovává podle svých zásad ochrany osobních údajů; vývojář k nim nemá přístup. Nastavení a klíče API se nesynchronizují.
+
+Pokud nejste přihlášeni k iCloudu nebo je iCloud pro aplikaci vypnutý, historie zůstává jen ve vašem zařízení. Synchronizaci zastavíte vypnutím synchronizace s iCloudem v nastavení; kopie, která už je v iCloudu, tam zůstane, dokud ji nesmažete.
 
 ## Obsah z jiných aplikací a přístup k zařízení
 
@@ -51,8 +57,9 @@ Pokud je Action Translation vaší výchozí aplikací pro překlad, příkaz P�
 ## Smazání údajů
 
 - Překlad smažete přejetím v historii.
+- Při zapnuté synchronizaci s iCloudem se smazaný překlad smaže i z iCloudu a z vašich ostatních zařízení.
 - Klíč API odstraníte vymazáním jeho pole v Nastavení.
-- Smazáním aplikace se odstraní historie a nastavení. iOS může po smazání aplikace zachovat položky klíčenky, proto nejprve vymažte klíče API.
+- Smazáním aplikace se odstraní nastavení a historie v tomto zařízení. Historie v iCloudu zůstane: smažete ji v Nastavení > [vaše jméno] > iCloud > Spravovat úložiště > Action Translation smazáním jejích dat. iOS může po smazání aplikace zachovat položky klíčenky, proto nejprve vymažte klíče API.
 - Pro přístup k údajům uloženým u poskytovatele AI nebo jejich smazání se obraťte na daného poskytovatele.
 
 ## Apple a tento web
